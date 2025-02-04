@@ -5,9 +5,9 @@ $font-primary: 'Montserrat',Arial, sans-serif;
 
 $white: #fff;
 $black: #000000;
-$darken: #090f35;
+$darken: #19344f;
 
-$primary: #323edd;
+$primary: #0365A0;
 $secondary: #ffa41b;
 
 
@@ -489,106 +489,6 @@ h1, h2, h3, h4, h5,
 		font-weight: 700;
 	}
 }
-
-
-
-//INTRO
-// .ftco-intro{
-// 	@include media-breakpoint-up(lg){
-// 		margin-top: -200px;
-// 	}
-// 	.services-1{
-// 		background: $primary;
-// 		width: 100%;
-// 		padding: 20px;
-// 		position: relative;
-// 		@include transition(.3s);
-// 		.icon{
-// 			span{
-// 				@include transition(.3s);
-// 			}
-// 		}
-// 		h3{
-// 			@include transition(.3s);
-// 		}
-// 		.line{
-// 			position: absolute;
-// 			top: 0;
-// 			left: 0;
-// 			right: 0;
-// 			bottom: 0;
-// 			content: '';
-// 			&:before, &:after{
-// 				position: absolute;
-// 				content: '';
-// 				width: 10px;
-// 				height: 4px;
-// 				background: $white;
-// 				@include transition(.3s);
-// 			}
-// 			&:before{
-// 				top: 0;
-// 				right: 0;
-// 			}
-// 			&:after{
-// 				bottom: 0;
-// 				left: 0;
-// 			}
-// 		}
-// 		&:before, &:after{
-// 			position: absolute;
-// 			content: '';
-// 			width: 4px;
-// 			height: 10px;
-// 			background: $white;
-// 			@include transition(.3s);
-// 		}
-// 		&:before{
-// 			top: 0;
-// 			right: 0;
-// 		}
-// 		&:after{
-// 			bottom: 0;
-// 			left: 0;
-// 		}
-// 		.icon{
-// 			font-size: 40px;
-// 			color: $white;
-// 		}
-// 		h3{
-// 			color: $white;
-// 			font-size: 16px;
-// 		}
-// 		&.color-1{
-// 			background: darken($primary,4%);
-// 		}
-// 		&.color-2{
-// 			background: darken($primary,6%);
-// 		}
-// 		&:hover{
-// 			background: darken($primary,9%);
-// 			&:after, &:before{
-// 				height: 30px;
-// 				background: $secondary;
-// 			}
-// 			.line{
-// 				&:before, &:after{
-// 					width: 30px;
-// 					background: $secondary;
-// 				}
-// 			}
-// 			.icon{
-// 				span{
-// 					color: $secondary;
-// 				}
-// 			}
-// 			h3{
-// 				color: $secondary;
-// 			}
-// 		}
-// 	}
-// }
-
 
 .bg-light {
 	background: #f8f9fa!important;
